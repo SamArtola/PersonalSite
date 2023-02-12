@@ -1,0 +1,51 @@
+
+        body{
+            display: block;
+            background-color: #DAEAF1;
+        }
+
+        h1{
+            color: #3f9797;
+        }
+        h2{
+            color: #3f9797;
+            border-bottom-style: solid;
+            width: 13%;
+            border-width: 2px;
+        }
+        h3{
+            color: #3f9797;
+        }
+
+        hr{
+            border-color: #667d7b;
+            border-style: none;
+            border-top-style: dotted;
+            border-width: 5px;
+            width: 10%;
+        }
+        a:link {
+            color: rgb(108, 56, 206);
+            background-color: transparent;
+            text-decoration: none;
+        }
+
+        a:visited {
+            color: rgb(108, 56, 206);
+            background-color: transparent;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: indigo;
+            background-color: transparent;
+            text-decoration: none;
+        }
+
+        a:active {
+            color: rgb(123, 98, 177);
+            background-color: transparent;
+            text-decoration: none;
+        }
+
+
