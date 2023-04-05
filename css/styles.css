@@ -7,12 +7,22 @@
 
         h1,h3{
             color: #3f9797;
+            font-size: 30px;
         }
         h2{
             color: #3f9797;
             border-bottom-style: solid;
             width: fit-content;
             border-width: 2px;
+            justify-content: center;
+            font-size: 28px;
+        }
+
+        .textbox{
+            display: block;
+            padding: 15px;
+            font-size: 20px;
+            font-family: 'Times New Roman', Times, serif;
         }
 
         hr{
@@ -46,32 +56,30 @@
             text-decoration: none;
         }
  
-        .col{
-            
+        .column {
             float: left;
-            width: 50%;  
-        }
-
-        .row::after{
+            width: auto;
+            padding: 5px;
+            padding-left: 25px;
             justify-content: center;
-            display: flex;
+        }
+        .row:after {
             content: "";
             display: table;
             clear: both;
         }
 
         h1.course-tag{
-            font-size: 275%;
+            font-size: 30px;
             color: #3f9797;
             border-bottom-style: solid;
             padding-bottom: 10px;
         }
 
-        ul {
+        ul.course_name {
             list-style-type: "\01F338";
             font-family: 'Times New Roman', Times, serif;
-            font-size: xx-large;
-            line-height: 60px;
+            font-size: 24px;
         }
 
         .lbl-toggle {
@@ -125,7 +133,3 @@
         .nav-bar > p > a:hover{
             text-decoration: underline;
         }
-
-
-
-
