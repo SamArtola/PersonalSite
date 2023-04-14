@@ -89,12 +89,13 @@
             font-size: 1.2rem;
             text-transform: uppercase;
             text-align: center;
-
+            
+            margin: auto;
             padding: 1rem;
             color: #3f9797;
             background: #82d1ca;
             cursor: pointer;
-
+            width: 75%;
             border-radius: 7px;
             transition: all 0.25s ease-out;
         }
@@ -122,6 +123,8 @@
         }
           
         .collapsible-content {
+            margin: inherit;
+            text-align: left;
             max-height: 0px;
             overflow: hidden;
             transition: max-height .25s ease-in-out;
